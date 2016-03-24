@@ -78,7 +78,13 @@
 		renderList();
 
 
-	
+	$('.grid').isotope({
+						itemSelector: '.grid-item',
+						layoutMode: 'masonry',
+						masonry: {
+							gutter: 20
+						}
+					});
 
 	
 
